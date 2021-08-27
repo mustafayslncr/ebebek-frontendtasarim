@@ -25,7 +25,7 @@ const Card = (props) => {
           
            
         
-            var sum = cardItems.reduce(function(a, b){
+            var sum = cardItems.reduce((a, b)=>{
                 a += b['price'];
                 return a;
               },0)

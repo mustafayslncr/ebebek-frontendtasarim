@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Detail = (props) => {
     const id = props.match.params.id
-    // console.log(id);
+    console.log('props',props);
     const product = data.products.find(dt=>dt._id===id)
 
     return (
