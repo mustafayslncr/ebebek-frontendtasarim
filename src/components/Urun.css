@@ -1,0 +1,157 @@
+.urun{
+    background-color: white;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+   .kategori-bar{
+   display: flex;
+   align-items: center;
+   justify-content:flex-start;
+   flex-wrap: nowrap;
+   overflow-x: scroll;
+   margin-left: 30px;
+  
+  
+   }
+   ::-webkit-scrollbar{
+     width:0
+   }
+   
+   
+   .kategori-detay{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 15px;
+  cursor:pointer
+   }
+   .urun .kategori-detay img{
+     width: 100px;
+     border-radius: 50%;
+     object-fit: contain;
+  
+   }
+  
+   .urun .kategori-detay span{
+     font-weight: 800;
+   }
+
+   .slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slider{
+    width: 70%;
+
+    margin-left: 30px;
+  }
+  .slider-detay div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media  screen and (max-width:991px)  {
+    .kategori-bar{
+      display: flex;
+      align-items: center;
+      justify-content:flex-start;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      margin-left: 20px;
+     
+     
+      }
+      ::-webkit-scrollbar{
+        width:0
+      }
+      
+      
+      .kategori-detay{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2px 15px;
+        cursor:pointer
+      }
+      .urun .kategori-detay img{
+        width: 50px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+     
+      .urun .kategori-detay span{
+        font-size: 14px;
+        font-weight: 800;
+      }
+   
+      .slider img{
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+     }
+     .slider{
+       width: 90%;
+       margin-left: 20px;
+     }
+     .slider-detay div{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+  }
+
+  @media  screen and (max-width:767px)  {
+    .kategori-bar{
+      display: flex;
+      align-items: center;
+      justify-content:flex-start;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      margin-left: 20px;
+     
+     
+      }
+      ::-webkit-scrollbar{
+        width:0
+      }
+      
+      
+      .kategori-detay{
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2px 15px;
+        cursor:pointer
+      }
+      .urun .kategori-detay img{
+        width: 50px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+     
+      .urun .kategori-detay span{
+        font-size: 12px;
+        font-weight: 800;
+      }
+   
+      .slider img{
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+     }
+     .slider{
+       width: 90%;
+       margin-left: 20px;
+     }
+     .slider-detay div{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+  }

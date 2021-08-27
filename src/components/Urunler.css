@@ -1,0 +1,138 @@
+.urunler{
+    margin-top: 35px;
+    margin-left: 3px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.urunler h4{
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(32, 194, 194);
+}
+
+.urunlerbir{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.urunleriki{
+    height: 400px;
+}
+
+.urunlerbir .urunleriki{
+    border: 1px solid gray;
+    box-shadow: 1px 1px 6px gray;
+    margin: 10px 20px;
+    padding: 0px 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.urunler img{
+    width: 150px;
+    height: 200px;
+}
+
+.urunadi{
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.urunlerbir .urunleriki button{
+ margin-top: 30px;
+ width: 220px;
+ height: 40px;
+ border-radius: 10px;
+ color: white;
+ background-color: rgb(32, 194, 194);
+ border: transparent;
+ box-shadow: 2px 2px 5px gray;
+}
+
+.urunleriki:hover{
+    border: 2px solid rgb(32, 194, 194);
+}
+
+@media  screen and (max-width:991px)  {
+    .urunler{
+        margin-top: 35px;
+        margin-left: 3px;
+        width: 100%;
+        background-color: whitesmoke;
+        padding-top: 30px;
+        padding-left: 15px;
+    }
+    
+    .urunler h4{
+        background-color: white;
+        padding: 10px 5px;
+        border-radius: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: rgb(32, 194, 194);
+    }
+    
+    .urunlerbir{
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+    }
+    
+    .urunleriki{
+        height: 350px;
+    }
+    
+    .urunlerbir .urunleriki{
+        border: 1px solid gray;
+        box-shadow: 1px 1px 6px gray;
+        margin: 10px 20px;
+        padding: 0px 20px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    
+    .urunler img{
+        width: 100px;
+        height: 150px;
+    }
+    
+    .urunadi{
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    
+    
+    .urunlerbir .urunleriki button{
+     margin-top: 30px;
+     width: 150px;
+     height: 40px;
+     border-radius: 10px;
+     color: white;
+     background-color: rgb(32, 194, 194);
+     border: transparent;
+     box-shadow: 2px 2px 5px gray;
+    }
+    
+    .urunleriki:hover{
+        border: 2px solid rgb(32, 194, 194);
+    }
+  }

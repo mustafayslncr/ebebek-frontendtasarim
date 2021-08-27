@@ -1,0 +1,119 @@
+.sidebar{
+    background-color: whitesmoke;
+    height: 950px;
+    position: sticky;
+    margin-left: 50px;
+    z-index: 1;
+    left: 0;
+    top: 100px;
+}
+
+.sidebarmenu {
+    width: 300px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 13px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: all 1s;
+}
+.sidebar ul li span{
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.9;
+    padding-left: 15px;
+}
+.sidebar ul{
+    margin-top: 30px;
+}
+
+.sidebar ul li img{
+    height: 65px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.sidebar ul li .kapat{
+    background-color: rgb(50, 180, 212);
+    width: 100%;
+    border:1px solid transparent;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.sidebar i{
+    color: rgb(189, 189, 189);
+    font-size: 23px;
+}
+
+.sidebar li:hover{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    color: rgb(50, 180, 212);
+
+}
+.sidebar li:hover i{
+    color: rgb(50, 180, 212);
+}
+
+.sidebarmenu li:nth-child(10){
+    color: rgb(50, 180, 212);
+    position: relative;
+}
+
+.sidebarmenu li:nth-child(11){
+    color: crimson;
+}
+.sidebarmenu li:nth-child(12){
+    color: green;
+}
+.sidebarmenu li:nth-child(13){
+    color: orange;
+}
+.sidebarmenu li:nth-child(14){
+    color: gray;
+}
+
+.sidebarmenu .mavi{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(50, 180, 212);
+    border-radius: 50%;
+}
+.sidebarmenu .turuncu{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.sidebarmenu .kirmizi{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sidebarmenu .yesil{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+}
+.sidebarmenu .gri{
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+@media  screen and (max-width:991px) {
+    .sidebar{
+      display: none;
+    }
+  }
+

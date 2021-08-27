@@ -1,0 +1,136 @@
+.cardscreen{
+    background-color: white;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    font-family: cursive;
+  }
+  
+  .cardscreen .card-in{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid gray;
+      margin-left: 10px;
+  }
+  
+  .cardscreen .card-in img{
+      width: 100px;
+      height: 100px;
+  }
+  
+  
+  .cardscreen .card-in p{
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      font-weight: bold;
+  }
+  
+  .cardscreen .card-in button{
+      padding: 5px 10px;
+      border: 1px solid whitesmoke;
+      background-color: rgb(245, 85, 67);
+      color: white;
+      border-radius: 10px;
+  }
+  .cardscreen .card-in button:hover{
+      background-color: red;
+  }
+
+  .total{
+      border: 1px solid gray;
+      width: 500px;
+      height: auto;
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .total button{
+      height: 50px;
+      background-color: white;
+      border: 1px solid gray;
+      margin-top: 15px;
+      border-radius: 10px;
+  }
+  .total button:hover{
+      
+      background-color: whitesmoke;
+     
+  }
+  
+  .total h5{
+      font-size: 17px;
+      letter-spacing: 1px;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  
+  .total strong{
+      color: crimson;
+  }
+  
+  @media  screen and (max-width:991px) {
+      .cardscreen .card-in p{
+          font-size: 16px;
+          letter-spacing: 0.5px;
+          font-weight: bold;
+      }
+      .cardscreen .card-in button{
+          padding: 5px 10px;
+          border: 1px solid whitesmoke;
+          background-color: rgb(245, 85, 67);
+          color: white;
+          border-radius: 10px;
+          font-size: 16px;
+          margin-bottom:15px ;
+  
+      } 
+      .cardscreen .card-in img{
+          width: 90px;
+          height: 90px;
+      }
+    }
+  
+    @media  screen and (max-width:767px) {
+      .cardscreen .card-in{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid gray;
+      }
+      
+      .cardscreen .card-in p{
+          font-size: 14px;
+          letter-spacing: 0.5px;
+          font-weight: bold;
+      }
+      .cardscreen .card-in button{
+          padding: 5px 10px;
+          border: 1px solid whitesmoke;
+          background-color: rgb(245, 85, 67);
+          color: white;
+          border-radius: 10px;
+          font-size: 14px;
+          margin-bottom:15px ;
+          margin-right: 24px;
+  
+      } 
+
+     
+      .total{
+          border: 1px solid gray;
+          width: 450px;
+          height: auto;
+          background-color: whitesmoke;
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          border-radius: 10px;
+          margin-top: 20px;
+          margin-left: 20px;
+      }
+  }
